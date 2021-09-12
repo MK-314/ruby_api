@@ -152,3 +152,6 @@ DEPENDENCIES
   rack-cors
   rails (~> 6.1.4, >= 6.1.4.1)
   tzinfo-data
+
+BUNDLED WITH
+   2.1.4
