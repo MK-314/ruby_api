@@ -8,7 +8,8 @@ gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 # Use mysql as the database for Active Record
 gem 'mysql2', '~> 0.5'
 # Use Puma as the app server
-gem 'puma', '~> 5.0'
+gem 'puma', '~> 5.00'
+gem 'rack-cors'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
