@@ -1,0 +1,2 @@
+class Travelpage < ApplicationRecord
+end
