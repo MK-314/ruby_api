@@ -4,5 +4,6 @@ Rails.application.routes.draw do
     resources :articles
     resources :travelpages
     resources :particles
+    resources :meals
   end
 end

@@ -10,12 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_24_204707) do
+ActiveRecord::Schema.define(version: 2021_10_24_215140) do
 
   create_table "articles", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "title"
     t.text "body"
     t.datetime "created_at"
+  end
+
+  create_table "meals", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.string "strCategory"
+    t.string "strCategoryThumb"
+    t.string "strCategoryDescription"
   end
 
   create_table "particles", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
