@@ -2,12 +2,12 @@ module Api
     class MealsController < ApplicationController
         def index
             meals = Meal.all
-            render json: {data: meals}
+            render json: {meals}
         end
         # 
         def show
             meal = Meal.find_by(id: params[:id]) 
-           render json: {data: meal}   
+           render json: {meal}   
         end
         # 
         def create
