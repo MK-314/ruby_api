@@ -5,5 +5,6 @@ Rails.application.routes.draw do
     resources :travelpages
     resources :particles
     resources :meals
+    resources :students
   end
 end
