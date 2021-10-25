@@ -7,7 +7,13 @@ module Api
         # 
         def show
             meal = Meal.find_by(id: params[:id]) 
-           render json: { data:meal}   
+            
+           render json: { 
+               id:meal.id,
+               strCategory:meal.strCategory,
+               strCategoryThumb:meal.strCategoryThumb,
+               strCategoryDescription:meal.strCategoryDescription
+            }   
         end
         # 
         def create
