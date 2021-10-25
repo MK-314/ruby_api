@@ -43,7 +43,7 @@ module Api
     
         private
         def meal_params
-            params.permit(:title,:body)
+            params.permit(:strCategory,:strCategoryThumb,:strCategoryDescription)
         end
     end
 end
